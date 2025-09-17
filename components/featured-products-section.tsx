@@ -133,10 +133,17 @@ export function FeaturedProductsSection() {
                     </div>
                   </div>
 
-                  <Button className="w-full bg-primary hover:bg-primary/90" size="sm">
-                    View Deal
-                    <ExternalLink className="ml-2 h-4 w-4" />
-                  </Button>
+                  <Button asChild className="w-full bg-primary hover:bg-primary/90" size="sm">
+  <a
+    href="/go/revenuecpm"
+    target="_blank"
+    rel="noopener noreferrer nofollow"
+
+  >
+    View Deal
+    <ExternalLink className="ml-2 h-4 w-4" />
+  </a>
+</Button>
 
                   <div className="pt-2 border-t border-border">
                     <SocialShare
